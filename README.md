@@ -2,10 +2,14 @@
   🐋 <big><strong>HLS Streaming Server with NGINX</strong></big>
 </h1>
 
+[**Installation**](#installation) |
+[**Start NGINX**](#start-nginx) |
+[**License**](#license)
+
 Guide used as a reference: https://docs.peer5.com/guides/setting-up-hls-live-streaming-server-using-nginx/
 
 
-## Installing Locally Using Docker 
+## Installation
 
 ### 1. Install Docker
 
