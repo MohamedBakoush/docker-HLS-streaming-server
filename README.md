@@ -4,6 +4,25 @@
 
 Guide used as a reference: https://docs.peer5.com/guides/setting-up-hls-live-streaming-server-using-nginx/
 
+## Start NGINX
+
+CLI into docker container and run 
+
+**Start nginx in the background**
+```
+/usr/local/nginx/sbin/nginx
+```
+
+**Start nginx in the foreground**
+```
+usr/local/nginx/sbin/nginx -g 'daemon off;'
+```
+
+**Kill nginx**
+```
+/usr/local/nginx/sbin/nginx -s stop
+```
+
 <hr/>
 
 <p id="user-content-license" align="center">
