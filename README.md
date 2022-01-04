@@ -5,7 +5,7 @@
 [**Installation**](#installation) |
 [**Start NGINX**](#start-nginx) |
 [**How to stream with OBS**](#how-to-stream-with-obs) |
-[**Watch HLS stream**](#watch-hls-stream) |
+[**Watch HLS Stream**](#watch-hls-stream) |
 [**License**](#license)
 
 Setting up HLS live streaming server using NGINX + nginx-rtmp-module on Docker
@@ -72,7 +72,7 @@ usr/local/nginx/sbin/nginx -g 'daemon off;'
         - Stream Key: $STREAM_KEY (Can Be Anything)
 - Start Streaming
 
-## Watch HLS stream
+## Watch HLS Stream
 
 [Safari](https://www.apple.com/safari/), [WatchVideobyLink](https://github.com/MohamedBakoush/WatchVideoByLink), [VLC](https://www.videolan.org/vlc/), [HLS player](https://github.com/videojs/http-streaming):
 
