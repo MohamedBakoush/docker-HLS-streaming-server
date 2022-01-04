@@ -6,6 +6,8 @@
 [**Start NGINX**](#start-nginx) |
 [**License**](#license)
 
+Setting up HLS live streaming server using NGINX + nginx-rtmp-module on Docker.
+
 Guide used as a reference: https://docs.peer5.com/guides/setting-up-hls-live-streaming-server-using-nginx/
 
 
