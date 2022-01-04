@@ -4,9 +4,10 @@
 
 [**Installation**](#installation) |
 [**Start NGINX**](#start-nginx) |
+[**How to stream with OBS**](#how-to-stream-with-obs) |
 [**License**](#license)
 
-Setting up HLS live streaming server using NGINX + nginx-rtmp-module on Docker.
+Setting up HLS live streaming server using NGINX + nginx-rtmp-module on Docker
 
 Guide used as a reference: https://docs.peer5.com/guides/setting-up-hls-live-streaming-server-using-nginx/
 
@@ -61,6 +62,14 @@ usr/local/nginx/sbin/nginx -g 'daemon off;'
 ```
 /usr/local/nginx/sbin/nginx -s stop
 ```
+
+## How to stream with [OBS](https://obsproject.com/)
+- Settings
+    - Stream
+        - Service: Custom
+        - Server: `rtmp://localhost:1935/stream`
+        - Stream Key: $STREAM_KEY (Can Be Anything)
+- Start Streaming
 
 <hr/>
 
