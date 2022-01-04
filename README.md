@@ -43,7 +43,7 @@ You should see a wall of logging output from the containers being launched on yo
 
 ## Start NGINX
 
-CLI into docker container and run 
+CLI into docker-HLS-streaming-server's docker container and run 
 
 **Start nginx in the background**
 ```
